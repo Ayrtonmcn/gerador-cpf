@@ -1,11 +1,8 @@
 import random
 
 cpf_gerado = ''
-contador = 1
-while contador < 10:
-    digito_gerado = random.randint(0,9)
-    contador += 1
-    cpf_gerado += str(digito_gerado)
+for n in range(0,9):
+    cpf_gerado += str(random.randint(0,9))
 
 multiplicador = 10
 soma_dig1 = 0
