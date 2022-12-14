@@ -1,7 +1,7 @@
 import random
 
 cpf_gerado = ''
-for n in range(0,9):
+for n in range(9):
     cpf_gerado += str(random.randint(0,9))
 
 multiplicador = 10
